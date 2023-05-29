@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyra-js P2P</title>
+  </head>
+  <body>
+    <audio id="audioElem" autoplay controls></audio>
+    <!-- <audio id="audioFromFile" src="./kokoro_1min.mp3" autoplay controls></audio> -->
+    <audio id="audioFromFile" src="./beat_thee_1min.mp3" autoplay controls></audio>
+    <!-- <audio id="audioFromFile" src="./reference.wav" autoplay controls></audio> -->
+    <div id="app"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "lyra-codec": "./node_modules/lyra-codec/src/lyra.js"
+        }
+      }
+    </script>
+    <script type="module" src="/load-from-file.js"></script>
+  </body>
+</html>
