@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!-- <audio id="audioElem" autoplay controls muted></audio> -->
+    <audio id="audioElem" autoplay controls muted></audio>
+    <div id="app"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "lyra-codec": "./node_modules/lyra-codec/src/lyra.js"
+        }
+      }
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
